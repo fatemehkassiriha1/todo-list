@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+}
+.input_add{
+    display: flex;
+    flex-direction: row;
+}
+#input {
+    width: 50vw;
+    outline: none ;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border:2px solid rgb(88, 198, 108);
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.input_add > button{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border:2px solid rgb(88, 198, 108) ;
+    color:rgb(88, 198, 108) ;
+    padding:10px 15px;
+    font-size: 20px;
+}
+.input_add > button:hover{
+    background-color: rgba(240, 248, 255, 0.833) ;
+}
+.options{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 62vw;
+}
+.options > li{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.options > li>p{
+    font-size: 25px;
+}
+li>p{
+    margin: 15px 0;
+    width: 60%;
+    outline-color:rgb(133, 135, 137) ;
+    padding:8px ;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+.icons>*{
+    font-size: 23px;
+}
+.fa-circle-check{
+    color: rgb(88, 198, 108) ;
+}
+.fa-edit{
+    color: rgb(85, 167, 255);
+}
+.fa-circle-xmark{
+    color: rgb(215, 3, 3);
+}
+
+.clicked{
+    text-decoration: line-through;
+    color: rgb(163, 165, 167);
+}
+.check{
+    color:rgb(172, 242, 185) ;
+}
+
+.clear_btn{
+    border:2px solid rgb(88, 198, 108) ;
+    color:rgb(88, 198, 108) ;
+    padding:10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.clear_btn:hover{
+    background-color: rgba(240, 248, 255, 0.833);
+}
